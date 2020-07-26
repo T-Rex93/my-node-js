@@ -32,4 +32,4 @@ logger.on('messageLoad', function(arg){
 	console.log('Listener called', arg);
 });
 
-Logger('ini test message');
+logger.log('ini test message');
